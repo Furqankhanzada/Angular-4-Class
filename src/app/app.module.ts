@@ -2,14 +2,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { QuestionComponent } from './question.component';
-import { QuestionsListComponent } from './questionsList.component';
+import { QuizFormComponent } from './quizForm.component';
+import { QuizComponent } from './quiz.component';
+import { QuizesListComponent } from './quizesList.component';
 
 @NgModule({
   declarations: [
+    QuizFormComponent,
+    QuizComponent,
+    QuizesListComponent,
     AppComponent,
-    QuestionComponent,
-    QuestionsListComponent
   ],
   imports: [
     BrowserModule
